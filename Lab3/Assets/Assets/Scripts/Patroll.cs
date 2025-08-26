@@ -7,7 +7,7 @@ public class Patroll : MonoBehaviour
     public enum AIState { Patrol, WaitAtWaypoint, Chase }
 
     [Header("Refs")]
-    public Transform player;
+    Transform player;
     public Transform[] waypoints;
 
     [Header("Movimiento")]
@@ -36,7 +36,7 @@ public class Patroll : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
         anim = GetComponent<Animator>();
-        if (!player) player = GameObject.FindGameObjectWithTag("Player")?.transform;
+        player = GameObject.FindGameObjectWithTag("Player")?.transform;
 
         agent.updateRotation = true;
         agent.acceleration = 20f;

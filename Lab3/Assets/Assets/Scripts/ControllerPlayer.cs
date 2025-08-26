@@ -93,19 +93,6 @@ public class ControllerPlayer : MonoBehaviour
         anim.SetFloat("Speed", targetAnim, 0.1f, Time.deltaTime);
     }
 
-    #if UNITY_EDITOR
-    void OnDrawGizmosSelected()
-    {
-        if (hasTarget)
-        {
-            Gizmos.color = Color.yellow;
-            Gizmos.DrawWireSphere(currentTarget, slowDownRadius);
-            Gizmos.color = Color.cyan;
-            Gizmos.DrawWireSphere(currentTarget, arriveThreshold);
-        }
-    }
-    #endif
-
     void OnValidate()
     {
         if (arriveThreshold < 0.05f) arriveThreshold = 0.05f;

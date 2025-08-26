@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: EvaderControler
+  m_Controller: {fileID: 9100000, guid: 928cb6f875e227146b77cafec5a3ea2f, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: -203655887218126122, guid: c4d40c40dce21ea4b970424f3dba2bab, type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 2d6d6a5e8d499bd4dbc85c3f4dc9b22d, type: 3}
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 5f4686e6ee2df3149a417d79b0913829, type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 2c36be80142a2e241ae35aa5b6d75031, type: 3}
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 9de92f0611c08ae4bb70a5b68f1de522, type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 579dddbd28c9d0a4b82683010ed17570, type: 3}
