@@ -1749,7 +1749,7 @@ MonoBehaviour:
   eyeHeight: 1.6
   visionObstructionMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1
   loseTargetTime: 2
 --- !u!195 &788121035
 NavMeshAgent:
@@ -2867,7 +2867,6 @@ MonoBehaviour:
   - {fileID: 857810899}
   - {fileID: 904304443}
   - {fileID: 1005053941}
-  shootOrigin: {fileID: 0}
   walkSpeed: 2.6
   acceleration: 18
   angularSpeedDeg: 720
@@ -2877,7 +2876,7 @@ MonoBehaviour:
   eyeHeight: 1.6
   visionObstructionMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1
   shootTriggerName: Shoot
   shootCooldown: 1.2
   shootStopTime: 0.15
@@ -3233,7 +3232,7 @@ MonoBehaviour:
   eyeHeight: 1.6
   visionObstructionMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1
   reselectionCooldown: 0.4
 --- !u!1 &1706837275
 GameObject:

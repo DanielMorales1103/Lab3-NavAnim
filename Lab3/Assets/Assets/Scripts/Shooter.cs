@@ -8,7 +8,7 @@ public class Shooter : MonoBehaviour
     [Header("Refs")]
     public Transform player;            
     public Transform[] waypoints;       
-    public Transform shootOrigin;       
+    private Transform shootOrigin;       
 
     [Header("Movimiento")]
     public float walkSpeed = 2.6f;
@@ -146,8 +146,6 @@ public class Shooter : MonoBehaviour
                 var rb = go.GetComponent<Rigidbody>();
                 if (rb)
                 {
-                    rb.isKinematic = false;
-                    rb.useGravity = false;
                     rb.linearVelocity = fireDir * projectileSpeed;
                 }
             }

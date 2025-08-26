@@ -39,9 +39,6 @@ public class Patroll : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player")?.transform;
 
         agent.updateRotation = true;
-        agent.acceleration = 20f;
-        agent.angularSpeed = 720f;
-        agent.stoppingDistance = 0.35f;
 
         if (waypoints != null && waypoints.Length > 0)
             agent.SetDestination(waypoints[0].position);
